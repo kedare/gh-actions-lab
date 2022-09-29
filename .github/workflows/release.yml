@@ -1,3 +1,4 @@
+name: Release
 
 # Only trigger on new tag matching a semantic versioning format
 on:

@@ -14,4 +14,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Debug
-        run: echo "On pull request event"; env
+        run: echo "On pull request event"; env | sort

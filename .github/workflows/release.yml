@@ -11,4 +11,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Debug
-        run: echo "On tag push"; env
+        run: echo "On tag push"; env | sort

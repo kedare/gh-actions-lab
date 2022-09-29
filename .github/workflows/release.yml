@@ -1,0 +1,13 @@
+
+# Only trigger on new tag matching a semantic versioning format
+on:
+  push:
+    tags:
+      - '*.*.*'
+
+
+jobs:
+  testing:
+    steps:
+      - name: Debug
+        run: echo "On tag push"; env

@@ -1,0 +1,10 @@
+on:
+  push:
+    branches:
+      - "*"
+
+jobs:
+  testing:
+    steps:
+      - name: Debug
+        run: echo "On push event"; env

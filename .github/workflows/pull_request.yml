@@ -1,0 +1,16 @@
+name: Go
+
+# Only trigger on pull requests to master
+on:
+  pull_request:
+    types:
+      - opened
+      - reopened
+    branches:
+      - master
+
+jobs:
+  testing:
+    steps:
+      - name: Debug
+        run: echo "On pull request event"; env

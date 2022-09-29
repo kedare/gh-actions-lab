@@ -17,4 +17,9 @@ if __name__ == '__main__':
 def ThisShouldFail():
     print("ugly python")
 
+
+def anotherMistake():
+    print("plop")
+
+
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/

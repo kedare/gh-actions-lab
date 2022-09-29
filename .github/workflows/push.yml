@@ -5,6 +5,7 @@ on:
 
 jobs:
   testing:
+    runs-on: ubuntu-latest
     steps:
       - name: Debug
         run: echo "On push event"; env

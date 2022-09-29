@@ -11,6 +11,7 @@ on:
 
 jobs:
   testing:
+    runs-on: ubuntu-latest
     steps:
       - name: Debug
         run: echo "On pull request event"; env
